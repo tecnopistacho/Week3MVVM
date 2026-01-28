@@ -66,12 +66,14 @@ val tasks by taskViewModel.tasks.collectAsState()
 - Näyttää tehtävälistan
 - Lomake uuden tehtävän lisäämiseen
 - Painikkeet suodatukseen, lajitteluun ja kaikkien tehtävien näyttämiseen
+  
 ![Home Screen](image1.png)
 
 2. TaskDetailDialog
 - Avautuu tehtävää klikattaessa
 - Tehtävän otsikon ja eräpäivän muokkaus
 - Muutosten tallennus tai tehtävän poistaminen
+  
 ![Task Detail Dialog](image2.png)
 
 ---
@@ -158,15 +160,17 @@ This ensures that the UI is always in sync with the data, without manually refre
 
 ## Screenshots
 1. HomeScreen
-Displays a list of tasks
-Add task form
-Buttons for filter, sort, and show all
+- Displays a list of tasks
+- Add task form
+- Buttons for filter, sort, and show all
+  
 ![Home Screen](image1.png)
 
 2. TaskDetailDialog
-Opens when clicking a task
-Edit task title or due date
-Save changes or delete task
+- Opens when clicking a task
+- Edit task title or due date
+- Save changes or delete task
+  
 ![Task Detail Dialog](image2.png)
 
 ---
