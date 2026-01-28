@@ -18,7 +18,9 @@ Tämä rakenne tekee sovelluksesta **modulaarisen, helposti ylläpidettävän ja
 ```
 com.example.week3mvvm
 ├── model
-│   └── Task.kt           # Task data class
+│   └── Task.kt           
+│   └── MockTasks.kt
+│   └── TaskFunctions.kt  
 ├── view
 │   ├── HomeScreen.kt     # Main task list UI
 │   └── TaskDetailDialog.kt # Dialog for editing/deleting tasks
@@ -113,7 +115,9 @@ MVVM separates the app into three layers:
 ```
 com.example.week3mvvm
 ├── model
-│   └── Task.kt           # Task data class
+│   └── Task.kt
+│   └── MockTasks.kt
+│   └── TaskFunctions.kt             
 ├── view
 │   ├── HomeScreen.kt     # Main task list UI
 │   └── TaskDetailDialog.kt # Dialog for editing/deleting tasks
