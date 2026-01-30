@@ -91,7 +91,7 @@ val tasks by taskViewModel.tasks.collectAsState()
 ---
 
 ## Esitys video
-[Week 3 - MVVM Architecture](https://www.youtube.com/watch?v=pDXYLSF4_Lg)
+[Week 3 - MVVM Architecture](https://youtu.be/eRModHrV3EA)
 
 
 ---
@@ -189,6 +189,6 @@ This ensures that the UI is always in sync with the data, without manually refre
 ---
 
 ## Video Demo:
-[Week 3 - MVVM Architecture](https://www.youtube.com/watch?v=pDXYLSF4_Lg)
+[Week 3 - MVVM Architecture](https://youtu.be/eRModHrV3EA)
 
   
